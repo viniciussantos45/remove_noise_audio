@@ -36,7 +36,7 @@ Este projeto divide um arquivo de áudio em partes menores, aplica o DeepFilter 
     
     Copiar código
     
-    `git clone https://github.com/viniciussantos45/remove-noise-audio.git cd remove-noise-audio`
+    `git clone https://github.com/viniciussantos45/remove_noise_audio.git cd remove-noise-audio`
     
 3. **Crie um ambiente virtual e ative-o:**
     
