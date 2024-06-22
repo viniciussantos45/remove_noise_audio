@@ -60,7 +60,14 @@ Este projeto divide um arquivo de áudio em partes menores, aplica o DeepFilter 
     
     Copiar código
     
-    `pip install git+https://github.com/Rikorose/DeepFilterNet.git`
+    ```bash
+    # Install cpu/cuda pytorch (>=1.9) dependency from pytorch.org, e.g.:
+    pip install torch torchaudio -f https://download.pytorch.org/whl/cpu/torch_stable.html
+    # Install DeepFilterNet
+    pip install deepfilternet
+    # Or install DeepFilterNet including data loading functionality for training (Linux only)
+    pip install deepfilternet[train]
+    ```
     
 
 ### Uso
@@ -80,14 +87,6 @@ Este projeto divide um arquivo de áudio em partes menores, aplica o DeepFilter 
     - Dividir o arquivo `audio.wav` em partes menores.
     - Aplicar o DeepFilter em cada parte para remover ruídos.
     - Combinar as partes processadas em um novo arquivo chamado `output.wav`.
-
-### Estrutura do Projeto
-
-bash
-
-Copiar código
-
-`remove-noise-audio/ ├── chunks/                # Pasta para armazenar os chunks de áudio divididos ├── processed_chunks/      # Pasta para armazenar os chunks de áudio processados ├── remove_noise_wav.py    # Script principal para remover ruídos do áudio ├── requirements.txt       # Lista de dependências do projeto └── README.md              # Este arquivo`
 
 ### Contribuição
 
