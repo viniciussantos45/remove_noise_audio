@@ -95,4 +95,4 @@ Sinta-se à vontade para contribuir com melhorias para este projeto. Você pode 
 
 ### Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes..
